@@ -1,0 +1,44 @@
+.hoopers {
+    flex: 0 0 calc(20% - 23px);
+    margin: 20px;
+    text-align: center;
+}
+.hoopers img{
+    width: 100%;
+    height:auto;
+    border-radius: 8px;
+}
+.hoopers h2 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+body{
+    background-color: darkred;
+    background-image: url("https://wallpapers.com/images/hd/gradient-background-7xsdz99i2ljokhwn.jpg");
+    background-size: 120%;
+}
+header{
+    text-align: center;
+    background-color: antiquewhite;
+    background-image: url("https://images.pexels.com/photos/3377405/pexels-photo-3377405.jpeg?cs=srgb&dl=pexels-elina-araja-1743227-3377405.jpg&fm=jpg");
+    padding: 10px;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    background-image: url("https://images.pexels.com/photos/3377405/pexels-photo-3377405.jpeg?cs=srgb&dl=pexels-elina-araja-1743227-3377405.jpg&fm=jpg");
+
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
